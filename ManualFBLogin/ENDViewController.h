@@ -10,4 +10,7 @@
 
 @interface ENDViewController : UIViewController
 
+@property (nonatomic, strong) NSString *someString;
+
+
 @end
