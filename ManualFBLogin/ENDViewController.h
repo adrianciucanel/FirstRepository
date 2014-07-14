@@ -12,6 +12,7 @@
 
 @property (nonatomic, strong) NSString *someString;
 @property (nonatomic, strong) NSNumber *x;
+@property (nonatomic, strong) NSString *cfe;
 
 
 @end
