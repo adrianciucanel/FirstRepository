@@ -11,6 +11,7 @@
 @interface ENDViewController : UIViewController
 
 @property (nonatomic, strong) NSString *someString;
+@property (nonatomic, strong) NSNumber *x;
 
 
 @end
