@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22FA48201973CAA700E76B47 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22FA481F1973CAA700E76B47 /* Foundation.framework */; };
+		22FA48221973CAA700E76B47 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22FA48211973CAA700E76B47 /* CoreGraphics.framework */; };
+		22FA48241973CAA700E76B47 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22FA48231973CAA700E76B47 /* UIKit.framework */; };
+		22FA482A1973CAA700E76B47 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 22FA48281973CAA700E76B47 /* InfoPlist.strings */; };
+		22FA482C1973CAA700E76B47 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22FA482B1973CAA700E76B47 /* main.m */; };
+		22FA48301973CAA700E76B47 /* ENDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22FA482F1973CAA700E76B47 /* ENDAppDelegate.m */; };
+		22FA48331973CAA700E76B47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22FA48311973CAA700E76B47 /* Main.storyboard */; };
+		22FA48361973CAA700E76B47 /* ENDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22FA48351973CAA700E76B47 /* ENDViewController.m */; };
+		22FA48381973CAA700E76B47 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22FA48371973CAA700E76B47 /* Images.xcassets */; };
+		22FA483F1973CAA700E76B47 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22FA483E1973CAA700E76B47 /* XCTest.framework */; };
+		22FA48401973CAA700E76B47 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22FA481F1973CAA700E76B47 /* Foundation.framework */; };
+		22FA48411973CAA700E76B47 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22FA48231973CAA700E76B47 /* UIKit.framework */; };
+		22FA48491973CAA700E76B47 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 22FA48471973CAA700E76B47 /* InfoPlist.strings */; };
+		22FA484B1973CAA700E76B47 /* ManualFBLoginTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22FA484A1973CAA700E76B47 /* ManualFBLoginTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		22FA48421973CAA700E76B47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22FA48141973CAA700E76B47 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22FA481B1973CAA700E76B47;
+			remoteInfo = ManualFBLogin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		22FA481C1973CAA700E76B47 /* ManualFBLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ManualFBLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22FA481F1973CAA700E76B47 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		22FA48211973CAA700E76B47 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		22FA48231973CAA700E76B47 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		22FA48271973CAA700E76B47 /* ManualFBLogin-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ManualFBLogin-Info.plist"; sourceTree = "<group>"; };
+		22FA48291973CAA700E76B47 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		22FA482B1973CAA700E76B47 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		22FA482D1973CAA700E76B47 /* ManualFBLogin-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ManualFBLogin-Prefix.pch"; sourceTree = "<group>"; };
+		22FA482E1973CAA700E76B47 /* ENDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ENDAppDelegate.h; sourceTree = "<group>"; };
+		22FA482F1973CAA700E76B47 /* ENDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ENDAppDelegate.m; sourceTree = "<group>"; };
+		22FA48321973CAA700E76B47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		22FA48341973CAA700E76B47 /* ENDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ENDViewController.h; sourceTree = "<group>"; };
+		22FA48351973CAA700E76B47 /* ENDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ENDViewController.m; sourceTree = "<group>"; };
+		22FA48371973CAA700E76B47 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		22FA483D1973CAA700E76B47 /* ManualFBLoginTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ManualFBLoginTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		22FA483E1973CAA700E76B47 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		22FA48461973CAA700E76B47 /* ManualFBLoginTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ManualFBLoginTests-Info.plist"; sourceTree = "<group>"; };
+		22FA48481973CAA700E76B47 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		22FA484A1973CAA700E76B47 /* ManualFBLoginTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ManualFBLoginTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22FA48191973CAA700E76B47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22FA48221973CAA700E76B47 /* CoreGraphics.framework in Frameworks */,
+				22FA48241973CAA700E76B47 /* UIKit.framework in Frameworks */,
+				22FA48201973CAA700E76B47 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22FA483A1973CAA700E76B47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22FA483F1973CAA700E76B47 /* XCTest.framework in Frameworks */,
+				22FA48411973CAA700E76B47 /* UIKit.framework in Frameworks */,
+				22FA48401973CAA700E76B47 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22FA48131973CAA700E76B47 = {
+			isa = PBXGroup;
+			children = (
+				22FA48251973CAA700E76B47 /* ManualFBLogin */,
+				22FA48441973CAA700E76B47 /* ManualFBLoginTests */,
+				22FA481E1973CAA700E76B47 /* Frameworks */,
+				22FA481D1973CAA700E76B47 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		22FA481D1973CAA700E76B47 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22FA481C1973CAA700E76B47 /* ManualFBLogin.app */,
+				22FA483D1973CAA700E76B47 /* ManualFBLoginTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22FA481E1973CAA700E76B47 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				22FA481F1973CAA700E76B47 /* Foundation.framework */,
+				22FA48211973CAA700E76B47 /* CoreGraphics.framework */,
+				22FA48231973CAA700E76B47 /* UIKit.framework */,
+				22FA483E1973CAA700E76B47 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		22FA48251973CAA700E76B47 /* ManualFBLogin */ = {
+			isa = PBXGroup;
+			children = (
+				22FA482E1973CAA700E76B47 /* ENDAppDelegate.h */,
+				22FA482F1973CAA700E76B47 /* ENDAppDelegate.m */,
+				22FA48311973CAA700E76B47 /* Main.storyboard */,
+				22FA48341973CAA700E76B47 /* ENDViewController.h */,
+				22FA48351973CAA700E76B47 /* ENDViewController.m */,
+				22FA48371973CAA700E76B47 /* Images.xcassets */,
+				22FA48261973CAA700E76B47 /* Supporting Files */,
+			);
+			path = ManualFBLogin;
+			sourceTree = "<group>";
+		};
+		22FA48261973CAA700E76B47 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				22FA48271973CAA700E76B47 /* ManualFBLogin-Info.plist */,
+				22FA48281973CAA700E76B47 /* InfoPlist.strings */,
+				22FA482B1973CAA700E76B47 /* main.m */,
+				22FA482D1973CAA700E76B47 /* ManualFBLogin-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		22FA48441973CAA700E76B47 /* ManualFBLoginTests */ = {
+			isa = PBXGroup;
+			children = (
+				22FA484A1973CAA700E76B47 /* ManualFBLoginTests.m */,
+				22FA48451973CAA700E76B47 /* Supporting Files */,
+			);
+			path = ManualFBLoginTests;
+			sourceTree = "<group>";
+		};
+		22FA48451973CAA700E76B47 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				22FA48461973CAA700E76B47 /* ManualFBLoginTests-Info.plist */,
+				22FA48471973CAA700E76B47 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22FA481B1973CAA700E76B47 /* ManualFBLogin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22FA484E1973CAA700E76B47 /* Build configuration list for PBXNativeTarget "ManualFBLogin" */;
+			buildPhases = (
+				22FA48181973CAA700E76B47 /* Sources */,
+				22FA48191973CAA700E76B47 /* Frameworks */,
+				22FA481A1973CAA700E76B47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ManualFBLogin;
+			productName = ManualFBLogin;
+			productReference = 22FA481C1973CAA700E76B47 /* ManualFBLogin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		22FA483C1973CAA700E76B47 /* ManualFBLoginTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22FA48511973CAA700E76B47 /* Build configuration list for PBXNativeTarget "ManualFBLoginTests" */;
+			buildPhases = (
+				22FA48391973CAA700E76B47 /* Sources */,
+				22FA483A1973CAA700E76B47 /* Frameworks */,
+				22FA483B1973CAA700E76B47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22FA48431973CAA700E76B47 /* PBXTargetDependency */,
+			);
+			name = ManualFBLoginTests;
+			productName = ManualFBLoginTests;
+			productReference = 22FA483D1973CAA700E76B47 /* ManualFBLoginTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22FA48141973CAA700E76B47 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = END;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = adrian.ciucanel;
+				TargetAttributes = {
+					22FA483C1973CAA700E76B47 = {
+						TestTargetID = 22FA481B1973CAA700E76B47;
+					};
+				};
+			};
+			buildConfigurationList = 22FA48171973CAA700E76B47 /* Build configuration list for PBXProject "ManualFBLogin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 22FA48131973CAA700E76B47;
+			productRefGroup = 22FA481D1973CAA700E76B47 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22FA481B1973CAA700E76B47 /* ManualFBLogin */,
+				22FA483C1973CAA700E76B47 /* ManualFBLoginTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22FA481A1973CAA700E76B47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22FA48381973CAA700E76B47 /* Images.xcassets in Resources */,
+				22FA482A1973CAA700E76B47 /* InfoPlist.strings in Resources */,
+				22FA48331973CAA700E76B47 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22FA483B1973CAA700E76B47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22FA48491973CAA700E76B47 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22FA48181973CAA700E76B47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22FA48361973CAA700E76B47 /* ENDViewController.m in Sources */,
+				22FA48301973CAA700E76B47 /* ENDAppDelegate.m in Sources */,
+				22FA482C1973CAA700E76B47 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22FA48391973CAA700E76B47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22FA484B1973CAA700E76B47 /* ManualFBLoginTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		22FA48431973CAA700E76B47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22FA481B1973CAA700E76B47 /* ManualFBLogin */;
+			targetProxy = 22FA48421973CAA700E76B47 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		22FA48281973CAA700E76B47 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22FA48291973CAA700E76B47 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		22FA48311973CAA700E76B47 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22FA48321973CAA700E76B47 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		22FA48471973CAA700E76B47 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22FA48481973CAA700E76B47 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22FA484C1973CAA700E76B47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		22FA484D1973CAA700E76B47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22FA484F1973CAA700E76B47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ManualFBLogin/ManualFBLogin-Prefix.pch";
+				INFOPLIST_FILE = "ManualFBLogin/ManualFBLogin-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		22FA48501973CAA700E76B47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ManualFBLogin/ManualFBLogin-Prefix.pch";
+				INFOPLIST_FILE = "ManualFBLogin/ManualFBLogin-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		22FA48521973CAA700E76B47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ManualFBLogin.app/ManualFBLogin";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ManualFBLogin/ManualFBLogin-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ManualFBLoginTests/ManualFBLoginTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		22FA48531973CAA700E76B47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ManualFBLogin.app/ManualFBLogin";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ManualFBLogin/ManualFBLogin-Prefix.pch";
+				INFOPLIST_FILE = "ManualFBLoginTests/ManualFBLoginTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22FA48171973CAA700E76B47 /* Build configuration list for PBXProject "ManualFBLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22FA484C1973CAA700E76B47 /* Debug */,
+				22FA484D1973CAA700E76B47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22FA484E1973CAA700E76B47 /* Build configuration list for PBXNativeTarget "ManualFBLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22FA484F1973CAA700E76B47 /* Debug */,
+				22FA48501973CAA700E76B47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		22FA48511973CAA700E76B47 /* Build configuration list for PBXNativeTarget "ManualFBLoginTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22FA48521973CAA700E76B47 /* Debug */,
+				22FA48531973CAA700E76B47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22FA48141973CAA700E76B47 /* Project object */;
+}
